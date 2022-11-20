@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    {% block head %}
+    <title>{% block title %} {% endblock %} - cloudacode</title>
+    <style>
+        body {
+            padding: 25px;
+            background-color: white;
+            color: black;
+            font-size: 25px;
+        }
+
+    </style>
+    {% endblock %}
+</head>
+
+{% block body %} {% endblock %}
+
+</html>
