@@ -1,0 +1,13 @@
+.git*
+.cache
+.__pycache__/
+.dockerignore
+Dockerfile
+*.md
+.aws
+.config
+manifest
+venv
+.venv
+*/venv*
+.buildspec*
