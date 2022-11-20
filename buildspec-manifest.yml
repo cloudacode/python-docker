@@ -20,4 +20,4 @@ phases:
             - echo Build completed on `date`
             - echo Pushing the Docker image...
             - docker manifest push $IMAGE_REPO_NAME:$TAG
-            - docker manifest inspect $IMAGE_REPO_NAME
+            - docker manifest inspect $IMAGE_REPO_NAME:$TAG
